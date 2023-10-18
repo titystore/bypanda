@@ -1,0 +1,27 @@
+#root,
+body {
+  margin: auto;
+  padding: 0 auto;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+li {
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
+}
+
+.app {
+  display: flex;
+}

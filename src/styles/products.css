@@ -1,0 +1,36 @@
+.products {
+  float: right;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,
+      minmax(170px, 1fr));
+  gap: 16px;
+}
+
+/*
+.productsContainer{
+    display: flex;
+    width: 90%;
+    float: right;
+}
+
+*/
+.productsContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Centra verticalmente el contenido */
+  align-items: center;
+  /* Centra horizontalmente el contenido */
+  z-index: 1;
+  margin-top: 114px;
+}
+
+@media only screen and (max-width: 600px) {
+  .productsContainer {
+    margin-top: 170px;
+  }
+}

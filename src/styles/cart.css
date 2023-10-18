@@ -1,0 +1,94 @@
+/* Cart.css */
+.cart {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: black;
+  width: 42%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background-color: #f5f5f5;
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 90px;
+  z-index: 1000;
+  overflow-y: auto;
+  /* Agrega scroll vertical cuando el contenido excede el espacio */
+  max-height: 70vh;
+  /* Ajusta la altura máxima según sea necesario */
+}
+
+.cart h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+
+.cart-item p {
+  margin: 0;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart p:last-child {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+.add-remove {
+  display: flex;
+  gap: 3px;
+}
+
+.enviar-orden {
+  height: 30px;
+  background: rgb(50, 233, 187);
+  border: none;
+  border-radius: 5px;
+}
+
+.agregar,
+.quitar {
+  width: 20px;
+  margin: 0 auto;
+  border: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.quitar {
+  background-color: rgb(214, 84, 84);
+}
+
+.agregar {
+  background: rgb(50, 233, 187);
+}
+
+.quantity {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .cart {
+    margin-top: 143px;
+    width: 70%;
+  }
+}

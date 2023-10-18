@@ -4,7 +4,7 @@ const arrProducts = [
     "name": "Producto 1",
     "description": "Descripción del producto 1",
     "price": 9.99,
-    "image": "assets/laptop.jpg",
+    "image": "../../img/laptop.jpg",
     "category": "Kawaii",
     "stock": 10
   },

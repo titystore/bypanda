@@ -13,7 +13,7 @@ const arrProducts = [
     "name": "Producto 2",
     "description": "Descripción del producto 2",
     "price": 14.99,
-    "image": "../img/laptop.jpg",
+    "image": "img/laptop.jpg",
     "category": "Abarrotes",
     "stock": 10
   },
@@ -22,7 +22,7 @@ const arrProducts = [
     "name": "Producto 3",
     "description": "Descripción del producto 3",
     "price": 14.99,
-    "image": "../img/laptop.jpg",
+    "image": "img/laptop.jpg",
     "category": "Electrodomésticos",
     "stock": 10
   },
@@ -31,7 +31,7 @@ const arrProducts = [
     "name": "Producto 4",
     "description": "Descripción del producto 4",
     "price": 14.99,
-    "image": "../img/laptop.jpg",
+    "image": "img/laptop.jpg",
     "category": "Electrodomésticos",
     "stock": 10
   },
@@ -40,7 +40,7 @@ const arrProducts = [
     "name": "Producto 5",
     "description": "Descripción del producto 5",
     "price": 14.99,
-    "image": "../img/laptop.jpg",
+    "image": "img/laptop.jpg",
     "category": "Electrodomésticos",
     "stock": 10
   },
@@ -49,7 +49,7 @@ const arrProducts = [
     "name": "Producto 6",
     "description": "Descripción del producto 5",
     "price": 14.99,
-    "image": "../img/laptop.jpg",
+    "image": "img/laptop.jpg",
     "category": "Electrodomésticos",
     "stock": 10
   },
@@ -58,7 +58,7 @@ const arrProducts = [
     "name": "Producto 7",
     "description": "Descripción del producto 5",
     "price": 14.99,
-    "image": "../img/laptop.jpg",
+    "image": "img/laptop.jpg",
     "category": "Electrónicos",
     "stock": 10
   },
@@ -67,7 +67,7 @@ const arrProducts = [
     "name": "Producto 8",
     "description": "Descripción del producto 5",
     "price": 14.99,
-    "image": "../img/laptop.jpg",
+    "image": "img/laptop.jpg",
     "category": "Electrónicos",
     "stock": 10
   },
@@ -76,7 +76,7 @@ const arrProducts = [
     "name": "Producto 9",
     "description": "Descripción del producto 5",
     "price": 14.99,
-    "image": "../img/laptop.jpg",
+    "image": "img/laptop.jpg",
     "category": "software",
     "stock": 10
   },
@@ -85,7 +85,7 @@ const arrProducts = [
     "name": "Producto 10",
     "description": "Descripción del producto 5",
     "price": 14.99,
-    "image": "../img/laptop.jpg",
+    "image": "img/laptop.jpg",
     "category": "software",
     "stock": 10
   },
@@ -94,7 +94,7 @@ const arrProducts = [
     "name": "Producto 11",
     "description": "Descripción del producto 5",
     "price": 14.99,
-    "image": "../img/laptop.jpg",
+    "image": "img/laptop.jpg",
     "category": "software",
     "stock": 10
   },
@@ -103,7 +103,7 @@ const arrProducts = [
     "name": "Producto 12",
     "description": "Descripción del producto 5",
     "price": 14.99,
-    "image": "../img/laptop.jpg",
+    "image": "img/laptop.jpg",
     "category": "software",
     "stock": 10
   },
@@ -112,7 +112,7 @@ const arrProducts = [
     "name": "Producto 13",
     "description": "Descripción del producto 5",
     "price": 14.99,
-    "image": "../img/laptop.jpg",
+    "image": "img/laptop.jpg",
     "category": "software",
     "stock": 10
   },
@@ -121,7 +121,7 @@ const arrProducts = [
     "name": "Producto 14",
     "description": "Descripción del producto 5",
     "price": 14.99,
-    "image": "../img/laptop.jpg",
+    "image": "img/laptop.jpg",
     "category": "software",
     "stock": 10
   }

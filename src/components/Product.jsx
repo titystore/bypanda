@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
 import '../styles/product.css';
 
 function Product({ product, onAddToCart, onDeleteToCart }) {
 
   return (
     <div className="card">
-      <img src={product.image} alt={product.name} />
+      <img src={`https://github.com/titystore/bypanda/blob/master/src/${product.image}`} alt={product.name} />
       <h2>{product.name}</h2>
       <p>{product.description}</p>
       <p>Precio: ${product.price}</p>
